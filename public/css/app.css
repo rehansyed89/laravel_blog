@@ -115,39 +115,33 @@ a {
     font-size: .9em;
     font-weight: 400;
     color: #979797;
-    margin-right: 10px; }
-
+    margin-right: 10px;
+}
+.tag__extra_margin{
+    margin-top: 10px;
+}
 .post {
     margin-bottom: 60px;
-    background-color: #e7e7e7;
 }
 
 .post__header {
     font-size: 1.4em;
     font-weight: 800;
-    color: #353535;
-    margin-left: 10px;
-}
+    color: #353535; }
 
 .post__author {
     font-size: .9em;
     font-weight: 400;
-    margin-bottom: 30px;
-    margin-left: 10px;
-}
+    margin-bottom: 30px; }
 .post__author a {
-    font-weight: 400;
-    margin-left: 10px;
-}
+    font-weight: 400; }
 
 .post__time {
     margin-left: 10px; }
 
 .post__preview {
     font-size: 1em;
-    font-weight: 400;
-    margin-left: 10px;
-}
+    font-weight: 400; }
 
 
 /*# sourceMappingURL=app.css.map */

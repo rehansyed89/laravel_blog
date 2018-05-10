@@ -1,14 +1,17 @@
 <?php
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [
+    'as' => 'home',
+    'uses' => 'PostsController@index',
+]);
 
-Route::get('/post', function () {
-    return view('post.post');
-});
+Route::get('/post/{post}', [
+    'as' => 'post.show',
+    'uses' => 'PostController@show',
+]);
 
 
-Route::get('/posts/{tag}', function () {
-    return view('posts.tag');
-});
+Route::get('/posts/{tag}', [
+    'as' => 'posts.tagged',
+    'uses' => 'PostsController@tagged',
+]);
